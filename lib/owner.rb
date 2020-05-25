@@ -60,5 +60,7 @@ class Owner
       dog.mood=nervous
     end
   end
+  
+  def list_pets
 end
 end
