@@ -54,10 +54,6 @@ class Owner
       self.cats.delete(cat)
       cat.owner = nil
       cat.mood = "nervous"
-      self.dogs.each do |dog|
-      self.dog.delete(dog)
-      dog.owner = nil
-      dog.mood=nervous
     end
   end
   
@@ -67,8 +63,4 @@ class Owner
     puts"I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
   end
   
-  def self.reset_all
-    self.all.clear
-  end
-end
 end
