@@ -62,5 +62,8 @@ class Owner
   end
   
   def list_pets
+    number_of_dogs
+    number_of_cats
+    
 end
 end
