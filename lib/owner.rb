@@ -58,6 +58,9 @@ class Owner
     self.dogs.each do |dog|
       self.dog.delete(dog)
       dog.owner = nil
+      dog.mood=nervous
+    end
   end
+  
 end
       
