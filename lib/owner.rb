@@ -61,8 +61,8 @@ class Owner
  end
 
   def list_pets
-    dogs == self.dogs.select
-    cats == self.cats.select
+    number_of_dogs == self.dogs.select
+    number_of_cats == self.cats.select
     puts"I have #{dogs} dog(s), and #{cats} cat(s)."
   end
 end
