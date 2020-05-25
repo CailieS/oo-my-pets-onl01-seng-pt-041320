@@ -64,7 +64,7 @@ class Owner
   def list_pets
     number_of_dogs = self.dog.count
     number_of_cats = self.cat.count
-   "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
-
+    puts"I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
+  end
 end
 end
