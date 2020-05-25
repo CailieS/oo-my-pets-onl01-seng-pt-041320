@@ -57,7 +57,7 @@ class Owner
     end	
     self.dogs.each do |dog|
       self.dog.delete(dog)
-      
+      dog.owner = nil
   end
 end
       
